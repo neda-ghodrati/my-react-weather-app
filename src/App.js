@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <Weather />
+        <Weather defaultCity="Paris" />
 
         <footer>
           This Project is created by Neda Ghodrati, and it is{" "}
