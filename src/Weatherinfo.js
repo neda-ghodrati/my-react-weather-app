@@ -3,9 +3,9 @@ import FormattedDate from "./FormattedDate";
 import WeatherIcon from "./WeatherIcon";
 import WeatherTemperature from "./WeatherTemperature";
 
-export default function WeatherInfo(props) {
+export default function Weatherinfo(props) {
   return (
-    <div className="WeatherInfo">
+    <div className="Weatherinfo">
       <h1> {props.data.city} </h1>
       <ul>
         <li>
